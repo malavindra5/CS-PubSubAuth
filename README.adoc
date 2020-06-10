@@ -1,0 +1,20 @@
+:hivemq-download-link: http://www.hivemq.com
+
+== PubSub Auth Extension
+
+*Type*: Demonstration Extension
+
+*Version*: 1.0.0
+
+=== Installation
+
+. Download HiveMQ from {hivemq-download-link}[Here]
+. Clone this repository into a Java 11 maven project.
+. Run `mvn package` goal from Maven to build the extension.
+. unzip `target/pub-sub-auth-extension-1.0-SNAPSHOT-distribution.zip`
+. Move the file: `target/pub-sub-auth-extension` to the directory: `HIVEMQ_HOME/extensions`
+. Start HiveMQ.
+
+=== Dependencies
+. Openjdk11+
+. Maven
