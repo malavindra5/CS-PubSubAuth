@@ -11,8 +11,8 @@
 . Download HiveMQ from {hivemq-download-link}[Here]
 . Clone this repository into a Java 11 maven project.
 . Run `mvn package` goal from Maven to build the extension.
-. unzip "target/pub-sub-auth-extension-1.0-SNAPSHOT-distribution.zip"
-. Move the file: "target/pub-sub-auth-extension" to the directory: "HIVEMQ_HOME/extensions"
+. unzip `target/pub-sub-auth-extension-1.0-SNAPSHOT-distribution.zip`
+. Move the file: `target/pub-sub-auth-extension` to the directory: `HIVEMQ_HOME/extensions`
 . Start HiveMQ.
 
 === Dependencies
